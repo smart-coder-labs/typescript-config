@@ -1,11 +1,17 @@
 {
   "name": "@smart-coder-labs/typescript-config",
   "version": "1.0.1",
-  "private": true,
   "main": "index.js",
   "files": [
     "base.json",
     "react.json",
     "node.json"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smart-coder-labs/typescript-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
